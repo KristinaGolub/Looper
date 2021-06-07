@@ -1,0 +1,214 @@
+/* Общие стили (начало) */
+body {
+    font-family: 'M PLUS 1p',
+    sans-serif;
+}
+
+.container {
+    max-width: 1290px !important;
+}
+
+.row {
+    width: 1290px;
+} 
+
+li {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+.color-purple {
+    color: #F61067;
+}
+
+.color-green {
+    color: #00F0B5;
+}
+
+.color-orange {
+    color: #F67110;
+}
+
+.bold-pharagraph {
+    font-weight: bold;
+    font-size: 20px !important;
+}
+
+.button {
+    border-radius: 50px;
+    padding: 20px 40px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: white;
+    background-color: #F61067;
+}
+
+.button:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #850234;
+}
+
+.button:active {
+    color: white;
+    background-color: #5c0224;
+}
+/* Общие стили (конец) */
+
+.logo {
+   font-size: 24px;
+   font-weight: bold; 
+}
+
+.nav {
+    position: fixed;
+    /* width: 100%; */
+    background-color: #30124E;
+    height: 100px;
+}
+
+header {
+    background-image: url('../images/home/Photo-bg.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 1000px;
+    color: white;
+    font-weight: bold;
+}
+
+.purple-header {
+    font-size: 99px;
+    color: #F61067;
+}
+
+.preview-content {
+    height: 450px;
+    margin-top: 10em;
+}
+
+.preview-content h1 {
+    font-size: 99px;
+    font-weight: bold;
+}
+
+.preview-question {
+    font-size: 14px;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.preview-text {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.preview a {
+    color: white;
+}
+
+
+/* Секция  our-services (начало) */
+.our-services {
+    background-color: #150433;
+    padding-top: 6em;
+    padding-bottom: 10em;
+}
+
+.our-services p{
+    font-size: 18px;
+    color: white;
+}
+
+.our-services h2 {
+    color: white;
+}
+
+.article {
+    padding: 2em;
+}
+
+
+/* Секция  our-services (конец) */
+
+
+
+/* Секция  our-employees (начало) */
+.our-employees {
+    background-image: url('../images/our-employees/Faces.svg');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    margin-top: -100px;
+    margin-bottom: 10em;
+    z-index: 999;
+}
+
+.employees-comma {
+    margin-top: -40px;
+}
+
+.employees {
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+}
+
+.image-employees {
+    border-radius: 100%;
+}
+
+.employees-text {
+    margin-top: 30em;
+}
+
+.employees-text p, span {
+    font-size: 20px;
+}
+
+.employees-text h2 {
+    font-family: 'Noticia Text',
+    serif;
+    line-height: 2.5;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    position: absolute;
+    top: 40em !important;
+}
+
+.carousel-control-next-icon {
+    background-image: none !important;
+}
+
+.carousel-control-prev-icon {
+    background-image: url();
+}
+
+.purple-carousel-control {
+    width: 60px;
+    height: 60px;
+    padding: 0.7em 0;
+    border-radius: 50%;
+    background-color: #F61067;
+}
+/* Секция  our-employees (конец) */
+
+
+
+/* Секция newsletter (начало) */
+.newsletter {
+    margin-top: 10em;
+    margin-bottom: 10em;
+}
+
+.newsletter h2 {
+    font-weight: bold;
+}
+
+/* Секция newsletter (конец) */
